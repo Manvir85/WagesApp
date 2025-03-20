@@ -187,7 +187,8 @@ namespace WagesApp
             Console.WriteLine($"Total amount paid to employees: ${FormatToDollar(sumWages)}");
 
             // Display highest paid employee
-
+            Console.WriteLine("Press enter to close...");
+            Console.ReadLine();
         }
 
     }
